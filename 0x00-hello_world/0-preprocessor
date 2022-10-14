@@ -1,2 +1,2 @@
 #!/bin/bash
-gce -E $CFILE -o c
+gce $CFILE -E -o c
