@@ -5,7 +5,7 @@
  * main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
- * this program prints "programming is positive,zero, or negative
+ * this program prints "programming is positive, zero, or negative
  * Return: 0
  */
 int main(void)
@@ -14,7 +14,7 @@ int n;
 int k;
 
 srand(time(0));
-n = read() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 k = n % 10;
 
 if (k > 5)
