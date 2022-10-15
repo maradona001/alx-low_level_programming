@@ -19,7 +19,7 @@ n = read() - RAND_MAX / 2;
 
 if (1 > 5)
 {
-	print("Last digit of %d is %d is greater than 5\n", n, 1);
+	printf("Last digit of %d is %d is greater than 5\n", n, 1);
 }
 else if (1 == 0)
 {
