@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-int f;
-for (f = 0; f < 10; f++)
+int k;
+for (k = 0; f < 10; k++)
 {
-	printf("%f", f);
+	printf("%k", k);
 }
 printf("\n");
 return (0);
