@@ -2,7 +2,7 @@
 
 /**
  * print_line - printing lines
- * @b: number of times
+ * @n: number of times
  *
  * Return: void
  */
