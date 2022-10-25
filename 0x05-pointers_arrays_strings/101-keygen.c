@@ -3,8 +3,10 @@
 #include <time.h>
 
 /**
- * main - generate random value password for the programme 101-crackme.
- * Return: 0
+ * main - Generates random valid passwords for the
+ *        program 101-crackme.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -33,6 +35,14 @@ int main(void)
 			if (password[index] >= (33 + diff_half1))
 			{
 				password[index] -= diff_half1;
+				break;
+			}
+		}
+		for (index = 0; password[index]; index++)
+		{
+			if (password[index] >= (33 + diff_half2))
+			{
+				password[index] -= diff_half2;
 				break;
 			}
 		}
