@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints its name, followed by a new line.
@@ -7,7 +7,7 @@ include <stdio.h>
  *
  * Return: 0
  */
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
 	(void)argc;
 
